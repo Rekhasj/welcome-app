@@ -19,3 +19,13 @@ For each message randomly assign a username from the below user list.
 
 const user_list = ["Alan", "Bob", "Carol", "Dean", "Elin"]
 For each message, add a like button at the right end of the chat message, which on click should increase the count. Display the count next to the like button.
+
+ 
+<details>
+<summary>
+Stretch Goals</summary>
+<br/>
+  
+1.Add emoji options in the chat message
+  
+2.Add mentions(@) feature. On clikcing '@' show the list of users in the user list.
