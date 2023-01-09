@@ -1,12 +1,5 @@
 In this project, let's build a **ReactJS chat application** by applying the concepts of ReactJS.
 
-### Refer to the image below:
-
-<br/>
-<div style="text-align: center;">
-<img src="https://rekhasjchatpage.ccbp.tech/" alt="welcome app output" style="max-width:70%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12)">
-</div>
-<br/>
 
 
 
