@@ -1,33 +1,86 @@
-/* Write your CSS here */
-.container {
-  background-color: #1e293b;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.main-container {
+  background-color: bisque;
+  height: 100%;
+  padding: 20px;
 }
 
 .heading {
-  color: #f0bb03;
-  font-family: 'Bree Serif';
-  font-size: 40px;
+  text-align: center;
 }
-
-.greeting {
-  color: #ffffff;
-  font-family: 'Bree Serif';
-  font-size: 20px;
+.separator {
+  width: 90%;
 }
-.button {
+.display-card {
+  height: 70%;
+  list-style-type: none;
+  width: 100%;
+  padding: 20px;
+}
+.input-card {
+  position: bottom;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.user-input-card {
+  width: 80%;
   background-color: #ffffff;
-  border: none;
-  color: #1e293b;
-  font-size: 10px;
-  font-family: 'Bree Serif';
-  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding-left: 10px;
   padding-right: 10px;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  border-radius: 10px;
+}
+.input {
+  width: 100%;
+  border-radius: 20px;
+  border: none;
+  height: 50px;
+  font-size: 15px;
+  font-family: 'Roboto';
+  padding-left: 5px;
+}
+.mention-button {
+  background-color: transparent;
+  border: none;
+  padding: 10px;
+}
+.send-button {
+  font-size: 20px;
+  font-family: 'Roboto';
+  border: none;
+  margin-left: 10px;
+  border-radius: 20px;
+  height: 40px;
+  background-color: transparent;
+}
+.emoji-display-card {
+  display: flex;
+  flex-wrap: wrap;
+  height: 200px;
+  width: 300px;
+  list-style-type: none;
+  text-align: center;
+  background-color: transparent;
+  margin-left: 600px;
+  margin-right: 100px;
+  border-radius: 10px;
+}
+.emoji {
+  height: 60px;
+  width: 60px;
+  padding: 10px;
+}
+img {
+  height: 50px;
+  width: 50px;
+}
+.name-display-card {
+  list-style-type: none;
+  text-align: center;
+  background-color: transparent;
+  margin-left: 500px;
+  margin-right: 150px;
+  border-radius: 10px;
 }

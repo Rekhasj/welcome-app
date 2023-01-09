@@ -1,0 +1,56 @@
+li {
+  margin-bottom: 10px;
+  width: 90%;
+}
+
+.name-card {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.name {
+  font-size: 15px;
+  font-family: 'Roboto';
+  padding-left: 10px;
+}
+.time {
+  font-size: 10px;
+  font-family: 'Roboto';
+  padding-left: 10px;
+}
+.initial {
+  border-radius: 50px;
+  color: #ffffff;
+  padding: 10px 16px;
+  text-align: center;
+  font-size: 15px;
+}
+.message-card {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.message {
+  background-color: #ffffff;
+  border-radius: 10px;
+  width: 50%;
+  padding: 10px;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+.like-button {
+  background-color: lightblue;
+  font-size: 20px;
+  font-family: 'Roboto';
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.count {
+  font-size: 20px;
+  font-family: 'Roboto';
+  color: black;
+}
