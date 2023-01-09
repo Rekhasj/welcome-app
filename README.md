@@ -1,4 +1,4 @@
-In this project, let's build a **Welcome App** by applying the concepts we have learned till now.
+In this project, let's build a **ReactJS chat application** by applying the concepts of ReactJS.
 
 ### Refer to the image below:
 
@@ -35,57 +35,11 @@ In this project, let's build a **Welcome App** by applying the concepts we have 
 
 The app must have the following functionalities
 
-- When the page is opened, a button should be displayed with text content as **Subscribe**
-- When the **Subscribe** button is clicked
-  - The text content in the **Subscribe** button should be changed to **Subscribed**
-- When the **Subscribed** button is clicked
-  - The text content in the **Subscribed** button should be changed to **Subscribe**
+This will be a single page application, which will have a textbox to type the message and a button to send the chat.
 
-</details>
+On clicking send button, show the chat message above the textbox(Refer the image). You need not have to develop the sidebar in the image. Just focus on the chat input box and the chat message thread.
 
-<details>
-<summary>Implementation Files</summary>
-<br/>
+For each message randomly assign a username from the below user list.
 
-Use these files to complete the implementation:
-
-- `src/components/Welcome/index.js`
-- `src/components/Welcome/index.css`
-</details>
-
-### Important Note
-
-<details>
-<summary>Click to view</summary>
-<br/>
-**The following instructions are required for the tests to pass**
-
-- Achieve the given layout using only Conditional Rendering
-</details>
-
-### Resources
-
-<details>
-<summary>Colors</summary>
-
-<br/>
-
-<div style="background-color: #1e293b ; width: 150px; padding: 10px; color: white">Hex: #1e293b</div>
-<div style="background-color: #f0bb03 ; width: 150px; padding: 10px; color: white">Hex: #f0bb03</div>
-<div style="background-color: #ffffff ; width: 150px; padding: 10px; color: black">Hex: #ffffff</div>
-
-</details>
-
-<details>
-<summary>Font-families</summary>
-
-- Bree Serif
-
-</details>
-
-> ### _Things to Keep in Mind_
->
-> - All components you implement should go in the `src/components` directory.
-> - Don't change the component folder names as those are the files being imported into the tests.
-> - **Do not remove the pre-filled code**
-> - Want to quickly review some of the concepts you’ve been learning? Take a look at the Cheat Sheets.
+const user_list = ["Alan", "Bob", "Carol", "Dean", "Elin"]
+For each message, add a like button at the right end of the chat message, which on click should increase the count. Display the count next to the like button.
